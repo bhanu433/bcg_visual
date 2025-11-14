@@ -1,3 +1,4 @@
-genome BCG
-trackDb bcg/tracks.txt
+genome bcg
+organism Mycobacterium_bovis_BCG
 twoBitPath bcg/genome.2bit
+trackDb bcg/tracks.txt
