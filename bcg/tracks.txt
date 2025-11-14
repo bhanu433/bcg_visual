@@ -87,7 +87,8 @@ shortLabel T1 Up
 longLabel Upregulated sRNA (Test1 vs Control)
 type bed
 visibility pack
-color 0,180,0
+itemRgb On
+color 0,200,0
 
 track T1_down
 bigDataUrl Test1_vs_Control_sRNA_Down.bed
@@ -95,7 +96,8 @@ shortLabel T1 Down
 longLabel Downregulated sRNA (Test1 vs Control)
 type bed
 visibility pack
-color 220,0,0
+itemRgb On
+color 200,0,0
 
 
 ### Test2 vs Control ###
@@ -106,7 +108,8 @@ shortLabel T2 Up
 longLabel Upregulated sRNA (Test2 vs Control)
 type bed
 visibility pack
-color 0,180,0
+itemRgb On
+color 0,200,0
 
 track T2_down
 bigDataUrl Test2_vs_Control_sRNA_Down.bed
@@ -114,7 +117,8 @@ shortLabel T2 Down
 longLabel Downregulated sRNA (Test2 vs Control)
 type bed
 visibility pack
-color 220,0,0
+itemRgb On
+color 200,0,0
 
 
 ### Test2 vs Test1 ###
@@ -125,6 +129,7 @@ shortLabel T2vsT1 Up
 longLabel Upregulated sRNA (Test2 vs Test1)
 type bed
 visibility pack
+itemRgb On
 color 0,180,0
 
 track T2T1_down
@@ -133,5 +138,6 @@ shortLabel T2vsT1 Down
 longLabel Downregulated sRNA (Test2 vs Test1)
 type bed
 visibility pack
+itemRgb On
 color 220,0,0
 
