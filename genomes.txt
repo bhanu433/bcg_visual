@@ -1,0 +1,3 @@
+genome BCG
+trackDb bcg/tracks.txt
+twoBitPath bcg/genome.2bit

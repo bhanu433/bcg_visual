@@ -1,0 +1,127 @@
+##########################################
+# BIGWIG COVERAGE TRACKS
+##########################################
+
+track WT1
+bigDataUrl BCGILSWTR1.bw
+shortLabel WT1
+longLabel WT Replicate 1
+type bigWig
+visibility full
+color 0,0,255
+
+track WT2
+bigDataUrl BCGILSWTR2.bw
+shortLabel WT2
+longLabel WT Replicate 2
+type bigWig
+visibility full
+color 0,0,255
+
+track WT3
+bigDataUrl BCGILSWTR3.bw
+shortLabel WT3
+longLabel WT Replicate 3
+type bigWig
+visibility full
+color 0,0,255
+
+track Test11
+bigDataUrl BCGILSdisAOER1.bw
+shortLabel Test1_1
+longLabel Test1 Replicate 1
+type bigWig
+visibility full
+color 0,180,0
+
+track Test12
+bigDataUrl BCGILSdisAOER2.bw
+shortLabel Test1_2
+longLabel Test1 Replicate 2
+type bigWig
+visibility full
+color 0,180,0
+
+track Test13
+bigDataUrl BCGILSdisAOER3.bw
+shortLabel Test1_3
+longLabel Test1 Replicate 3
+type bigWig
+visibility full
+color 0,180,0
+
+track Test21
+bigDataUrl BCGILST3C4R1.bw
+shortLabel Test2_1
+longLabel Test2 Replicate 1
+type bigWig
+visibility full
+color 255,0,0
+
+track Test22
+bigDataUrl BCGILST3C4R2.bw
+shortLabel Test2_2
+longLabel Test2 Replicate 2
+type bigWig
+visibility full
+color 255,0,0
+
+track Test23
+bigDataUrl BCGILST3C4R3.bw
+shortLabel Test2_3
+longLabel Test2 Replicate 3
+type bigWig
+visibility full
+color 255,0,0
+
+##########################################
+# BED TRACKS FOR sRNA DEGs
+##########################################
+
+track T1_up
+bigDataUrl Test1_vs_Control_sRNA_Up.bed
+shortLabel T1 Up
+longLabel Upregulated sRNA (Test1 vs Control)
+type bed
+visibility pack
+color 0,200,0
+
+track T1_down
+bigDataUrl Test1_vs_Control_sRNA_Down.bed
+shortLabel T1 Down
+longLabel Downregulated sRNA (Test1 vs Control)
+type bed
+visibility pack
+color 200,0,0
+
+track T2_up
+bigDataUrl Test2_vs_Control_sRNA_Up.bed
+shortLabel T2 Up
+longLabel Upregulated sRNA (Test2 vs Control)
+type bed
+visibility pack
+color 0,200,0
+
+track T2_down
+bigDataUrl Test2_vs_Control_sRNA_Down.bed
+shortLabel T2 Down
+longLabel Downregulated sRNA (Test2 vs Control)
+type bed
+visibility pack
+color 200,0,0
+
+track T2T1_up
+bigDataUrl Test2_vs_Test1_sRNA_Up.bed
+shortLabel T2vsT1 Up
+longLabel Upregulated sRNA (Test2 vs Test1)
+type bed
+visibility pack
+color 0,200,0
+
+track T2T1_down
+bigDataUrl Test2_vs_Test1_sRNA_Down.bed
+shortLabel T2vsT1 Down
+longLabel Downregulated sRNA (Test2 vs Test1)
+type bed
+visibility pack
+color 200,0,0

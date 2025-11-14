@@ -1,0 +1,5 @@
+hub BCG_sRNA_hub
+shortLabel BCG sRNA Hub
+longLabel BCG RNA-seq and sRNA DEG Visualization Hub
+genomesFile genomes.txt
+email bsharma433@gmail.com
